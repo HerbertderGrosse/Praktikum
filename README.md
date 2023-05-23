@@ -91,7 +91,7 @@ Formatieren Sie Ihr Protokoll in *pdf*-Format und laden Sie Ihr Protokoll sowohl
 
 Die Auswertung des Versuchs erfolgt auf Grundlage Ihres Protokolls vorzugsweise im Jupyter-notebook. Zu Ihrer Orientierung bzgl. des Umfangs gehen Sie davon aus, dass Sie **nicht mehr als 2 Stunden** für die verbleibende Auswertung des aktuellen Versuchs benötigen sollten. Beachten Sie, dass es das vorrangige Ziel der Auswertung ist, Ihre Messung und die erzielten Ergebnisse mit einer sinnvollen persönlichen Einschätzung einschließlich entsprechender *quantifizierter* Unsicherheiten für Sie und Außenstehende verständlich zu dokumentieren. Ihr Protokoll und die entsprechende Auswertung sollten *übersichtlich*, *nachvollziehbar* und *vollständig* sein. Wir verlangen explizit **keine Formatierung in Latex**. 
 
-Die Abgabe erfolgt über das Hochladen, sowohl des Jupyter-notebooks als auch einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System.
+Die Abgabe erfolgt durch das Hochladen einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System. Beachten Sie hierzu die Hinweise die wir für Sie in den Dokumenten [Praktische Hinweise zur Durchführung und Auswertung der Versuche](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/PraktischeHinweise.md) und [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md) bereitgestellt haben.  
 
 ## Einordnung des Praktikums und ECTS-Regelung
 

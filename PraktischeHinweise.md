@@ -47,27 +47,33 @@ Für uns steht das Experimentieren und die inhaltlich konsistente und vollständ
 - sich ein Bild über die mit den aufgenommenen Daten verbundenen Unsicherheiten gemacht haben; 
 - alle Daten und Parameter zur Berechnung der (Teil-)Ergebnisse, einschließlich ihrer Unsicherheiten im Protokoll nachvollziehbar dokumentiert haben. 
 
-Wir gehen davon aus, dass das Protokoll, als Jupyter-notebook, während der Versuchsdurchführung entsteht. Hierzu empfehlen wir die Anleitung im Jupyter-notebook-Format als Vorlage zu verwenden. 
+Wir gehen davon aus, dass das Protokoll, als Jupyter-notebook, während der Versuchsdurchführung entsteht. Hierzu empfehlen wir die Anleitung im Jupyter-notebook-Format als Vorlage zu verwenden. Im Zuge dessen bietet es sich an die Anleitung während der Vorbereitung auf den Versuch bereits mit allen Informationen, die Sie für die Durchführung des Versuchs als notwendig erachten, oder mit vorbereiteten Tabellen-, Text- oder Code-Fragmenten zu versehen, die Sie während der Versuchsdurchführung dann nur noch modifizieren oder vervollständigen müssen. 
 
 Das Protokoll geht durch die folgenden letzten Schritte in die einzureichende Auswertung über: 
 
-- Abschließende Kontrolle und ggf. Aufbereitung aller (Teil-)Ergebnisse. Bringen Sie dabei das Protokoll in eine **allgemein verständliche und lesbare Form**.
+- Abschließende Kontrolle und ggf. Aufbereitung aller (Teil-)Ergebnisse. Bringen Sie dabei das Protokoll in eine **allgemein verständliche und lesbare Form**. 
 -  Reflexion und Diskussion des Versuchsablaufs und der erzielten Ergebnisse. 
 
 Eine strukturierte und organisierte Vorgehensweise bei der Protokollführung, ebenso wie ein sehr gutes, grundlegendes Verständnis für alle den Versuch betreffenden physikalischen Zusammenhänge sind Grundvoraussetzungen, um diese Anforderungen erfüllen zu können.
 
-Wir wünschen im Protokoll jedoch ausdrücklich **keine langen Herleitungen** physikalischer Zusammenhänge, die ohnehin aus der Literatur entnehmbar sind. Wir wünschen auch **keine Formatierung in Latex**, die über den in Markdown verwendbaren Satz physikalischer Formeln hinausgeht. Beides ist Ihnen freigestellt. Es geht jedoch weder in die Bewertung der eingereichten Auswertungen noch in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1 und P2 Praktika ein.
+Wir wünschen im Protokoll ausdrücklich **keine langen Herleitungen** physikalischer Zusammenhänge, die ohnehin aus der Literatur entnehmbar sind. Wir wünschen auch **keine Formatierung in Latex**, die über den in Markdown verwendbaren Satz physikalischer Formeln hinausgeht. Beides ist Ihnen freigestellt. Es geht jedoch weder in die Bewertung der eingereichten Auswertungen noch in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1 und P2 Praktika ein.
+
+Im Umkehrschluss ist die organisierte und strukturierte Dokumentation Ihrer Versuchsdurchführung nicht an ein Dokumentenformat gebunden. Es ist insbesondere bei dem Arbeiten mit Jupyter-notebook nicht Aufgabe der Tutor:innen (Teil-)Ergebnisse Ihres Protokolls in Code-Zellen des Jupyter-notebooks zusammen zu suchen. Wir gehen davon aus, dass Sie erzielte (Teil-)Ergebnisse z.B. im Anschluss an Code-Zellen in einer Markdown-Zelle klar kennzeichnen, zusammenfassen und diskutieren.
 
 ### Bevorzugtes Dokumentenformat
 
-Wir erwarten die Rückgabe der Versuchsauswertungen durch *fristgerechten upload* auf das ILIAS-System in den folgenden Formaten:
+Wir erwarten die Rückgabe der Versuchsauswertungen durch *fristgerechten upload* auf das ILIAS-System im folgenden Format:
 
-- **Jupyter-notebook exportiert nach *pdf***: in dieses Dokument kann Ihr:e Tutor:in elektronisch kommentieren.
-- Das **Jupyter-notebook** im Original können Sie zusätzlich zum *pdf*-Format hochladen. Achten Sie dabei ggf. darauf, dass Sie das vollständige Jupyter-notebook einschließlich aller eingebundenen Abbildungen (ggf. als *zip*-Datei) hochladen.
+- **Jupyter-notebook exportiert nach *pdf***: in dieses Dokument kann Ihr:e Tutor:in elektronisch kommentieren. Es ist obligatorisch.
+- Das **Jupyter-notebook** im Original können Sie zusätzlich zum *pdf*-Format hochladen. Achten Sie dabei ggf. darauf, dass Sie das vollständige Jupyter-notebook einschließlich aller eingebundenen Abbildungen (ggf. als *zip*-Datei) hochladen. 
 
 Zum Export des Jupyter-notebooks nach *pdf* achten Sie auf unsere Hinweise zum [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md). 
 
 Ausnahmen von dieser Regel sind zulässig. Beachten Sie jedoch, dass Sie **in jedem Fall eine Version Ihres Protokolls in *pdf*-Format** auf dem ILIAS-System hinterlegen müssen, damit Ihr Versuch die Chance hat anerkannt zu werden. 
+
+### Beispiel eines Protokolls/einer Auswertung
+
+Wir haben Ihnen ein Beispiel dafür, wie eine Auswertung in Jupyter-notebook aussehen könnte anhand des [Vorversuchs Datenverarbeitung aus dem WS2022/23](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/Musterprotokoll/Vorversuch)  zusammengestellt. In diesem Beispiel-Repository befindet sich auch ein entsprechender [Export des Jupyter-notebooks](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/Musterprotokoll/Vorversuch/Vorversuch_Musterprotokoll.pdf) nach *pdf*, wie Sie ihn als Version $\mathrm{v1}$ auf ILIAS hochladen würden. 
 
 ### Bewertung
 
@@ -101,6 +107,8 @@ Nach Ablauf des Praktikums müssen Sie **für jeden Versuch eine Auswertung** (d
 Weiterhin dürfen Sie sich nach Ablauf des Praktikums **nicht mehr als zwei Auswertung mit dem Vermerk "**-**" im Praktikumsbuch** leisten. Je nach Beanstandung müssen Sie die Auswertungen entsprechend überarbeiten oder entsprechende Versuche oder Versuchsteile während der Nachholtermine, nach Ablauf des Praktikums, erneut Durchführen. Auch dies liegt im Ermessen der Dozenten des Praktikums.  
 
 ### FAQ zum zeitlichen Ablauf der Versuchsauswertung und der Bewertung
+
+**Wie soll ich ein Protokoll in Jupyter-notebook führen?** – Verwenden Sie am besten die Anleitung des entsprechenden Versuchs als Vorlage. Bearbeiten Sie diese am besten in der Vorbereitung auf die Versuchsdurchführung, so dass Sie Werte ggf. nur noch eintragen und gleich weiterverarbeiten können. Für die prompte Weiterverarbeitung von Daten (z.B. zum Zweck der Fehlerfortpflanzung) bieten sich Code-Zellen an. Sie sollten unbedingt jedes (Teil-)Ergebnis in einer anschließenden Markdown-Zelle klar kennzeichnen, zusammenfassen und diskutieren. Nach dem Export ins *pdf*-Format sollte Ihr Protokoll vollständig und "von oben nach unten" flüssig und klar verständlich lesbar sein. Stellen Sie vor dem Export ins *pdf*-Format sicher, dass alle Zellen Ihres Jupyter-notebooks ausgeführt sind. Ein Beispiel für eine Auswertung in Jupyter-notebook finden Sie unter diesem [Link](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/Musterprotokoll/Vorversuch). 
 
 **Wann laden wir die "vorläufige" Version $\mathrm{v0}$ unseres Protokolls auf ILIAS hoch?** – Direkt nach Beendigung des Praktikumstages. Gehen Sie es am besten vorher nochmal kurz mit Ihrem:r Tutor:in durch das Protokoll und die erzielten Zwischenergebnisse durch.
 

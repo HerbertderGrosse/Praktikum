@@ -71,7 +71,7 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzell
 
 ## Export von Jupyter-notebook nach *pdf*
 
-Nach Bearbeitung sollten Sie Ihr Jupyter-notebook ins *pdf*-Format exportieren und auf ILIAS hochladen. Hierzu stehen Ihnen auf dem Jupyter-server zwei Möglichkeiten zur Verfügung. Wir empfehlen den direkten Export nach *pdf* auf dem Jupyter-server. Falls sich dies als problematisch erweisen sollte versuchen Sie den Export über *html*.  
+Nach Bearbeitung sollten Sie Ihr Jupyter-notebook ins *pdf*-Format exportieren und auf ILIAS hochladen. Hierzu stehen Ihnen auf dem Jupyter-server zwei Möglichkeiten zur Verfügung. Wir empfehlen den direkten Export nach *pdf* auf dem Jupyter-server. Falls sich dies als problematisch erweisen sollte versuchen Sie den Export über *html*. Stellen Sie vor dem Export ins *pdf*-Format sicher, dass all Zellen ausgeführt wurden, so dass alle erzielten (Teil-)Ergebnisse im *pdf*-Export sichtbar sind. 
 
 ### Direkter Export nach *pdf*
 
@@ -88,5 +88,3 @@ Falls beim direkten Export Ihres Jupyter-notebooks nach *pdf* Probleme auftreten
 - Exportieren Sie das Jupyter-notebook nach *html* und laden Sie es in dieses Verzeichnis herunter. Gehen Sie hierzu über den Menüpunkt *File* des Hauptmenüs des Jupyter-servers und wählen Sie die den Menüpunkt *Save and Export Notebook As…* und dann den Unterpunkt *HTML* aus. 
 - Laden Sie sich die Bilder, die im Jupyter-notebook verlinkt wurden, zusätzlich vom Jupyter-server in das gleiche Verzeichnis herunter. Die einzubindenden Bilddateien sollten sich in der gleichen Verzeichnisstruktur, wie auf dem Jupyter-server befinden. Gegebenenfalls benötigen Sie ein Unterverzeichnis *figures*. Beachten Sie eventuelle Änderungen in den Dateiendungen (z.B. von *jpg* nach *jpeg*), die beim Herunterladen automatisch durch Ihren Browser vorgenommen worden sein könnten. 
 - Sie können die *html*-Datei dann lokal, in Ihrem Browser, öffnen und von dort aus nach *pdf* exportieren. Wenn die so erzeugte *pdf*-Datei die Seiten nicht einwandfrei umbricht, ist das für uns ***kein Problem***.   
-
-Wir sind uns des Umstands bewusst, dass diese Art der Konvertierung nicht optimal ist und arbeiten daran diese Situation für Sie zu verbessern.
