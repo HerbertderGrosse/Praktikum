@@ -1,0 +1,41 @@
+# Das ist eine Kommentarzeile schreiben Sie so viele Kommentare in Ihre yaml-
+# Dateien, wie sie möchten! Falls sie diese Datei für Ihre Auswertung nutzen 
+# möchten legen Sie am besten eine Kopie dieser Datei (z.B. mit dem Namen 
+# my_model.yaml) in Ihrer Arbeitsumgebung an und passen Sie die Datenpunkte, 
+# Unsicherheiten und die Modell-Funktion, die Sie anpassen möchten an Ihre 
+# Messung an. Sie können dann eine Anpassung an die Daten mit Hilfe des 
+# python-Skripts run_phyFit.py vornehmen wie im Dokument "Verwendung der 
+# PhyPraKit Module" 
+
+# Hier geben Sie den Titel des plots an, der nach der Anpassung des Modells an 
+# die Daten angezeigt werden wird.
+title: "Beispiel aus Datei 'data.yaml'"
+# Hier geben Sie den Titel auf der x-Achse an.
+x_label: 'x-Werte'
+# Hier geben Sie den titel auf der y-Achse an.
+y_label: 'y-Werte'
+# Dieses Label wird in der Legende angezeigt. 
+label: Zufallsdaten
+# Dies sind die Werte der Beispieldaten auf der x-Achse.
+x_data: [0., 0.2, 0.4, 0.6, 0.8, 1., 1.2, 1.4, 1.6, 1.8, 2., 2.2, 2.4, 2.6]
+# Dies sind die Unsicherheiten der Werte auf der x-Achse. 
+x_errors: [0.01,0.015,0.02,0.025,0.03,0.035,0.04,0.045,0.05,0.055,0.06,
+           0.065,0.07,0.075]
+# Dies sind die Werte der Beispieldaten auf der y-Achse.  
+y_data: [1.149, 0.712, 0.803, 0.464, 0.398, 0.355, 0.148,
+         0.328, 0.181, 0.140, 0.0651, 0.005, -0.005, 0.116]
+# Hier sehen Sie nur einen Eintrag für die Unsicherheiten der Werte auf der 
+# y-Achse. Geben Sie nur eine einzige Zahl an, gilt diese als Unsicherheit für 
+# alle Werte. 
+y_errors: 0.07
+# Dies ist ein Namenslabel für das Modell, das Sie an die Daten anpassen 
+# möchten.
+model_label: 'Exponential'
+# Dies ist die Modell-Funktion, die Sie an die Daten anpassen möchten. Beachten 
+# Sie das "|"-Symbol nach dem yaml-Schlüsselwort "model_function". Danach folgt 
+# die Definition der Funktion in python. Sie können alle vorinstallerten 
+# Bibliotheken, wie z.B. numpy (np) für die Definition der Modell-Funktion ver-
+# wenden. 
+model_function: |
+    def exp_model(x, A=1., x0=1.):
+      return A*np.exp(-x/x0)
