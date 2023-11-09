@@ -9,4 +9,4 @@ Für diesen Vorversuch stehen Ihnen die folgenden zusätzlichen Informationen zu
   - Den Abstand zwischen Schwerpunkt und Aufhängung des (gesamten) Pendels haben wir ebenfalls aus den Einzelteilen bestimmt. Er betrug $s=\left(0,473\pm0,007\right)\hspace{0.05cm}{\mathrm{m}}$.
   - Für die Unsicherheiten auf die $x$- und $y$-Werte der Datenreihe können Sie die folgenden Angaben verwenden: 
     - $\Delta t = 0.0125\hspace{0.055cm}\mathrm{s}$,
-    - $\Delta\varphi = 0.02\hspace{0.05cm}\mathrm{m/s^{2}}$.
+    - $\Delta\varphi = 0,02\hspace{0.05cm}\mathrm{m/s^{2}}$.
