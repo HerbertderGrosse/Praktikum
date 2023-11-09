@@ -16,7 +16,7 @@ Mit der Option `–-help` in diesen Beispielen, rufen Sie den "Hilfe"-Text mit E
 
 Alle in diesem Text verwendeten Code-Beispiele sollten Sie in jedem SCC gitlab-Repository zu jedem der P1- und P2-Versuche direkt ausführen können.
 
-[^1]: Beachten Sie die Verwendung des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run** zur Ausführung des Skripts aus eine Code-Zelle des Jupyter-notebooks. Weitere Hinweise hierzu erhalten Sie im Dokument [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md).
+[^1]: Beachten Sie die Verwendung des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run** zur Ausführung des Skripts aus einer Code-Zelle des Jupyter-notebooks. Weitere Hinweise hierzu erhalten Sie im Dokument [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md).
 
 ## Parameteranpassung mit dem Skript *run_phyFit.py*
 
