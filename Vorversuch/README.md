@@ -54,3 +54,4 @@ Wir haben das Pendel in Schwingung versetzt, die resultierende Bewegung mit Hilf
 - Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/doc/Hinweise-Aufgabe-2.md).
 - Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/doc/Hinweise-Aufgabe-3.md).
 - Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/Datenblatt.md).  
+- **Anmerkungen zur Musterlösung finden Sie in der Datei [Anmerkungen.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/Musterprotokoll/Vorversuch/Anmerkungen.md).**
