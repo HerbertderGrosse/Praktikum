@@ -2,6 +2,66 @@
 
 ## Aufgabe 2: Mathematisches Pendel
 
+### Lineare Fehlerfortpflanzung nach Gauß
+
+Als lineare [Fehlerfortpflanzung](https://de.wikipedia.org/wiki/Fehlerfortpflanzung) bezeichnet man den Vorgang, bei dem die Unsicherheit $\Delta\hat{\theta}$ auf einen bestimmten Wert $\hat{\theta}$ eines Parameters $\theta$, z.B. im Rahmen einer Abbildung
+$$
+\begin{equation*}
+X\to Y: \quad \theta\to f(\theta)
+\end{equation*}
+$$
+als Unsicherheit $\Delta f(\hat{\theta})$ auf den Funktionswert $f(\hat{\theta})$ übertragen wird. Handelt es sich bei $f(\theta)$ um eine in $\theta$ stetig differenzierbare Abbildung, innerhalb der reellen Zahlen, erhält man $\Delta f(\hat{\theta})$ z.B. durch Entwicklung der [Taylorreihe](https://de.wikipedia.org/wiki/Taylorreihe):
+$$
+\begin{equation*}
+\begin{split}
+&f(\theta) = f(\hat{\theta}) + \underbrace{\frac{\partial f}{\partial\theta}(\hat{\theta})\,\Delta\hat{\theta}}+\ldots\\
+&\hphantom{f(\theta) = f(\hat{\theta}) +,}\equiv\Delta f(\hat{\theta})
+\end{split}
+\end{equation*}
+$$
+Dem Umstand, dass die Taylorreihe bereits nach dem ersten Term abbricht tragen wir durch das Attribut *lineare* Fehlerfortpflanzung Rechnung. 
+
+Liegen Unsicherheiten auf mehrere Parameter $\{\hat{\theta}_{j}:\hspace{0.05cm}j=1\ldots n\}$ vor, muss in $n$ Dimensionen gerechnet werden: 
+$$
+\begin{equation}
+\begin{split}
+&\Delta f(\boldsymbol{\theta}) = 
+\left(\begin{array}{cccc} \partial_{\theta_{0}}f & \partial_{\theta_{1}}f & \ldots & \partial_{\theta_{n}}f
+\end{array}\right)\cdot
+\underbrace{
+\left(\begin{array}{cccc} 
+\sigma_{1}^{2} & \sigma_{12} & \ldots & \sigma_{1n} \\
+\sigma_{21} & \sigma_{2}^{2} & \ldots & \sigma_{2n}f \\
+\vdots &  & \ddots & \vdots \\
+\sigma_{n1} & \sigma_{n2} & \ldots & \sigma_{n}^{2} \\
+\end{array}\right)}
+\cdot
+\left(\begin{array}{c} \partial_{\theta_{0}}f \\\partial_{\theta_{1}}f \\ \vdots \\ \partial_{\theta_{n}}f
+\end{array}\right).\\
+&\hphantom{\Delta f(\boldsymbol{\theta}) =\left(\begin{array}{cccc} \Delta\theta_{0} & \Delta\theta_{1} & \Delta\theta_{1} & \Delta\theta_{1} & \ldots & \Delta\theta
+\end{array}\right)}\equiv \Sigma\\
+\end{split}
+\end{equation}
+$$
+Dabei entspricht $\boldsymbol{\theta}=\{\theta_{j}\}$ und $\Sigma$ der [Kovarianzmatrix](https://de.wikipedia.org/wiki/Kovarianzmatrix) des Problems, die die Unsicherheiten und [linearen Korrelationen](https://de.wikipedia.org/wiki/Korrelation) der $\{\hat{\theta}_{j}\}$ abbildet.  
+
+Gebräuchlicher ist Gleichung **(1)** in der Gestalt
+$$
+\begin{equation}
+\begin{split}
+&\Delta f(\boldsymbol{\theta}) = \sqrt{\sum\limits_{j=1}^{n}\left(\frac{\partial f(\boldsymbol{\theta})}{\partial\theta_{j}}\,\Delta\hat{\theta}_{j}\right)^{2}}, \\
+&\text{mit:}\\
+&\\
+&\Delta\hat{\theta}_{j}^{2} = \sigma_{j}^{2},\\
+\end{split}
+\end{equation}
+$$
+die dem Spezialfall entspricht, dass die $\{\theta_{j}\}$ alle paarweise unabhängig sind, wofür $\Sigma$ die Form einer [Diagonalmatrix](https://de.wikipedia.org/wiki/Diagonalmatrix) annimmt. 
+
+Schwierigkeiten bei der linearen Fehlerfortpflanzung bestehen darin, dass die $\{\theta_{j}\}$ i.a. nicht unabhängig und die Korrelationen zwischen den $\{\theta_{j}\}$ nicht bekannt sind. Auch kann es nicht-triviale Korrelationen zwischen den $\{\theta_{j}\}$ geben, für die $\sigma_{ij}=0$ gilt. 
+
+Bei der Anwendung von Gleichung **(2)** sollten Sie sicherstellen (und entsprechend argumentieren), warum Sie annehmen (können), dass die $\{\theta_{j}\}$ paarweise unabhängig sind. Wenn Sie die Möglichkeit haben, einen Parameter $\theta_{j}\pm\Delta \theta_{j}$ direkt und ohne weitere Fehlerfortpflanzung aus einer Parameteranpassung zu bestimmen sollten Sie dieses Vorgehen der linearen Fehlerfortpflanzung nach Möglichkeit vorziehen. 
+
 ## Hinweise zur Durchführung
 
 Die zusätzlichen Angaben der Parameter, die Sie zur Lösung dieser Aufgabe benötigen, finden Sie in den Dateien [`parameters_Aufgabe_2.py`](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/params/parameters_Aufgabe_2.py) oder [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/Datenblatt.md).
@@ -33,37 +93,12 @@ Wenn Sie das Modell *an die Daten anpassen* möchten führen Sie das Skript *run
 %run /opt/conda/bin/run_phyFit.py foo.yaml 
 ```
 
-Die Größe $\hat{\chi}^{2}/n_{\mathrm{dof}}$ und die Werte und Unsicherheiten der angepassten Parameter $\hat{A}$, $\hat{\omega}$ und $\hat{\phi}$ sind Ausgaben der Anpassung. Gehen Sie bei der Bearbeitung dieses Aufgabenteils wie folgt vor: 
+Die Größe $\hat{z}/n_{\mathrm{dof}}$ und die Werte und Unsicherheiten der angepassten Parameter $\hat{A}$, $\hat{\omega}$ und $\hat{\phi}$ sind Ausgaben der Anpassung. Gehen Sie bei der Bearbeitung dieses Aufgabenteils wie folgt vor: 
 
 - Ermitteln Sie $g^{(2.2)}\pm\Delta g_{\Delta T}^{(2.2)}$ mit Hilfe der Anpassung und vergleichen Sie Ihr Ergebnis im Rahmen seiner Unsicherheiten zu $g_{\mathrm{exp}}\pm\Delta g_{\mathrm{exp}}$. 
 - Diskutieren und erklären Sie alle Beobachtungen, die Sie dabei machen. Wie kommt es, dass $\Delta g_{\Delta T}^{(2.2)}$ so viel kleiner ist, als $\Delta g_{\Delta T}^{(2.1)}$ und wie steht es um den Vergleich mit $g_{\mathrm{exp}}$?
 
-###  Aufgabe 2.3: Zweite Erweiterung der Methodik
-
-Sie können $g\pm\Delta g$ auch direkt als Modellparameter bestimmen. Unter Verwendung von *PhyPraKit* könnte der Funktionsblock für ein entsprechend verändertes Modell so aussehen: 
-
-```yaml
-model_label: "HARMONIC_G"
-model_function: |
-  def model(t, A=0.8, g=9.8, phi=0):
-      return x0*np.cos(np.sqrt(g/0.6285)*t+phi)
-```
-
-Dabei handelt es sich bei der Zahl `0.6385` um die Länge $\ell$ des Pendels (siehe [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/Datenblatt.md)), die wir als **äußeren Parameter** bestimmt haben und als solchen ins Modell einbringen. 
-
-Aus dieser Modifikation ergeben sich tiefere Einsichten in die Diskussion der berücksichtigten Unsicherheiten:
-
-Die Größe $\ell$ hat selbst eine Unsicherheit $\Delta\ell$, die wir in der Bestimmung von $\Delta g$ berücksichtigen sollten. Da $\ell$, als *von außen eingebrachter* Parameter, nicht immanent, d.h. nicht aus der Anpassung selbst, bestimmt werden kann, müssen wir $\Delta\ell$ ebenfalls von außen in die Bestimmung von $g$ einbringen.  Am einfachsten erreichen wir dies, indem wir $\ell$ um $\pm\Delta\ell$ variieren und die Anpassung erneut (insgesamt also $3\times$) durchführen. Die Unsicherheit $\Delta\ell$ wird entsprechend auf $g$ propagiert und führt so zu einer Unsicherheit $\Delta g_{\Delta\ell}^{(2.2)}$ unter Variation von $\ell$ um den Betrag $\pm\Delta\ell$. 
-
-Die Unsicherheit $\Delta g_{\Delta\ell}$, die sich aus der ungenügenden Kenntnis von $\ell$ ergibt bezeichnet man in diesem Zusammenhang als epistemische, oder **systematische Unsicherheit**. In der Physik sind systematische Unsicherheiten i.d.R. mit *systematischen Variationen* verbunden. Im Gegensatz dazu bezeichnet man $\Delta g_{\Delta T}$, das die Unsicherheiten der Datenpunkte, an die das Modell angepasst wurde und damit die eigentliche Messung repräsentiert, als **statistische Unsicherheit** der Messung.
-
-Nach der Anpassung an die Daten können Sie $g^{(2.3)}$ direkt als Ausgabewert der Anpassung ablesen. Es handelt sich lediglich um eine Umparametrisierung des Modells aus Aufgabe 2.1 für die Sie die folgenden Eigenschaften feststellen sollten: 
-
-- Der Wert von $g^{(2.3)}$ ist der gleiche, wie für $g^{(2.2)}$ aus Aufgabe 2.2;
-- Der Wert von $\Delta g_{\Delta T}^{(2.3)}$ ist der gleiche, wie für $\Delta g_{\Delta T}^{(2.2)}$ aus Aufgabe 2.2;
-- Der Wert von $\chi^{2}/n_{\mathrm{dof}}$ für die Güte der Anpassung ist der gleiche, wie aus Aufgabe 2.2.
-
 # Navigation
 
-[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/doc/Hinweise-Aufgabe-2-b.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/doc/Hinweise-Aufgabe-2-b.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Vorversuch/doc/Hinweise-Aufgabe-2-d.md)
 

@@ -66,7 +66,7 @@ Der Übergang zu dieser vermeintlich wahrheitsgetreueren Beschreibung der Realit
 
   - Wie verändert sich die Ausgabe von $n_{\mathrm{dof}}$ und warum?
 
-  - Wie verändert sich die Ausgabe von $\hat{\chi^{2}}/n_{\mathrm{dof}}$?
+  - Wie verändert sich die Ausgabe von $\hat{z}/n_{\mathrm{dof}}$?
 
   - Ist das zugrundeliegende Modell mit den Daten kompatibel? 
   
