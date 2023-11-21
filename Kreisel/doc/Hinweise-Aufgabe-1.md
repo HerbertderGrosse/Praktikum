@@ -106,7 +106,7 @@ $$
 \boldsymbol{\widetilde{\Theta}} = \bold{U}\cdot\boldsymbol{\Theta}\cdot\bold{U}^{-1}
 \end{equation*}
 $$
-entkoppelt werden, so dass $\boldsymbol{\widetilde{\Theta}}$ die Form einer [Diagonalmatrix](https://de.wikipedia.org/wiki/Diagonalmatrix) annimmt. Dabei entspricht $\bold{U^{-1}}$ der Inversen von $\bold{U}$. Die Suche nach solchen Abbildungen $\bold{U}$ bezeichnet man als [Eigenwertproblem](https://de.wikipedia.org/wiki/Eigenwerte_und_Eigenvektoren). Die Matrix $\boldsymbol{\widetilde{\Theta}}$ führt die Basisvektoren des Vektors 
+mit $\bold{U^{-1}U=\mathbb{1}}$, entkoppelt werden, so dass $\boldsymbol{\widetilde{\Theta}}$ die Form einer [Diagonalmatrix](https://de.wikipedia.org/wiki/Diagonalmatrix) annimmt. Die Suche nach solchen Abbildungen $\bold{U}$ bezeichnet man als [Eigenwertproblem](https://de.wikipedia.org/wiki/Eigenwerte_und_Eigenvektoren). Die Matrix $\boldsymbol{\widetilde{\Theta}}$ führt die Basisvektoren des Vektors 
 $$
 \begin{equation*}
 \vec{\tilde{\omega}} \equiv \bold{U}\cdot\vec{\omega}
@@ -122,7 +122,7 @@ Die Eigenschaft, dass der Trägheitstensor aus Gleichung **(3)** **symmetrisch**
 - Die Eigenwerte sind **immer reell**.
 - Die durch die zugehörigen Eigenvektoren aufgespannten Unterräume stehen **immer senkrecht aufeinander**.
 
-Die Matrizen $\bold{U}$ zur Diagonalisierung von $\boldsymbol{\Theta}$ sind in diesem Fall Rotationsmatrizen $\bold{R}$ mit der (definierenden) Eigenschaft: 
+Die Matrizen $\bold{U}$ zur Diagonalisierung von $\boldsymbol{\Theta}$ sind in diesem Fall Rotationsmatrizen mit der (definierenden) Eigenschaft: 
 $$
 \begin{equation*}
 \bold{R}^{-1} = \bold{R}^{\intercal},
