@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Kreisel
 
-## Aufgabe 2: Kardanisch gelagerter Kreisel
+## Aufgabe 2: Kardanisch gelagerter Kreisel [2/4]
 
 Die obigen Betrachtungen gelten für einen einfachen symmetrischen Kreisel. Im Fall des in (**Abbildung 1** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-2.md)) gezeigten, kardanisch gelagerten Kreisels, wie er im Praktikum zum Einsatz kommt, müssen die Trägheitsmomente der *massiven* Kardanrahmen bei der Beschreibung der Kreiselbewegung berücksichtigt werden. Bei Drehungen um $\hat{x}$ dreht sich der innere, bei Drehungen um $\hat{y}$ sowohl der innere, als auch der äußere Kardanrahmen mit. Für die Trägheitsmomente gilt daher: 
 $$

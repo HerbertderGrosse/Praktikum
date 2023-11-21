@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Kreisel
 
-## Aufgabe 2: Kardanisch gelagerter Kreisel
+## Aufgabe 2: Kardanisch gelagerter Kreisel [1/4]
 
 Im Rahmen dieser Aufgabe führen Sie quantitative Untersuchungen an einem kardanisch gelagerten Kreisel durch. Ein Beispiel für einen solchen Kreisel ist in **Abbildung 1** gezeigt:   
 

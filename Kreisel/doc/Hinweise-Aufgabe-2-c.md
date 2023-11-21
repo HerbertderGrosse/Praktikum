@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Kreisel
 
-## Aufgabe 2: Kardanisch gelagerter Kreisel
+## Aufgabe 2: Kardanisch gelagerter Kreisel [4/4]
 
 ### Hinweise zur Durchführung
 
