@@ -30,7 +30,7 @@ Das Trägheitsmoment $\theta_{\hat{n}}$ jedes Massenelements $\mathrm{d}m$ eines
 
 ### Trägheitsellipsoid
 
-Um das Trägheitsmoment um eine beliebige Achse $\hat{n}$ eines ausgedehnten Körpers zu berechnen ist über alle Massenelemente $\mathrm{d}m$ zu integrieren. Wir beschreiben hierzu die Lage von $\hat{n}$ in einem körperfesten Koordinatensystem $K$, dessen Ursprung im Schwerpunkt des Körpers liegt, mit den drei Winkeln $\alpha$, $\beta$ und $\gamma$ mit
+Um das Trägheitsmoment um eine beliebige Achse $\hat{n}$ eines ausgedehnten Körpers zu berechnen ist über alle Massenelemente $\mathrm{d}m$ des Körpers zu integrieren. Wir beschreiben hierzu die Lage von $\hat{n}$ in einem körperfesten Koordinatensystem $K$, dessen Ursprung im Schwerpunkt des Körpers liegt, mit den drei Winkeln $\alpha$, $\beta$ und $\gamma$ mit
 $$
 \begin{equation*}
 \hat{n} = 
@@ -70,13 +70,13 @@ $$
 \end{split}
 \end{equation}
 $$
-Die $\{\theta_{i}\}$ sind die **Trägheitsmomente**, die $\{\Theta_{ij}\}$ die **Deviationsmomente** in den Koordinaten von $K$. Ist $K$ beliebig gewählt sind die $\{\Theta_{ij}\}$ ungleich 0. Nach Hauptachsentransformation (ins Koordinatensystem $\widetilde{K}$) gilt 
+Die $\{\theta_{i}\}$ und $\{\Theta_{ij}\}$ sind die (zunächst nur für ein Massenelement eingeführten) **Trägheits-** und **Deviationsmomente** in den Koordinaten von $K$. Ist $K$ beliebig gewählt sind die $\{\Theta_{ij}\}$ ungleich 0. Nach Hauptachsentransformation (ins Koordinatensystem $\widetilde{K}$) gilt 
 $$
 \begin{equation*}
 \Theta_{ij}=0 \qquad \forall\,i,j=x, \,y, \,z \text{ und }i\neq j
 \end{equation*}
 $$
-Und die $\{\theta_{i}\}$ sind die Hauptträgheitsmomente. Aus Gleichung **(1)** ist zu erkennen, dass die bilinearen Deviationsmomente verschwinden, wenn sich eine Rotationsachse $\hat{n}$ finden lässt bezüglich derer die Massenbelegung des Körpers symmetrisch ist, weshalb für homogene, symmetrische Körper die Hauptträgheitsachsen mit den Figurenachsen der Körper zusammenfallen.
+Und die $\{\theta_{i}\}$ entsprechen den Hauptträgheitsmomenten. Aus Gleichung **(1)** ist zu erkennen, dass die bilinearen Deviationsmomente verschwinden, wenn sich eine Rotationsachse $\hat{n}$ finden lässt bezüglich derer die Massenbelegung des Körpers symmetrisch verteilt ist, weshalb für homogene, symmetrische Körper die Hauptträgheitsachsen mit den Symmetrie- oder [Figurenachsen](https://de.wikipedia.org/wiki/Figurenachse) der Körper zusammenfallen.
 
 Trägt man den sog. Trägheitsmodul entlang der Achse $\hat{n}$ als
 $$
@@ -100,14 +100,14 @@ x_{\hat{n}}\\y_{\hat{n}}\\z_{\hat{n}}
 \right),
 \end{equation*}
 $$
-dann bilden die Endpunkte der $\vec{r}_{\hat{n}}$ das sog. [Trägheitsellipsoid](https://de.wikipedia.org/wiki/Tr%C3%A4gheitsellipsoid), dessen allgemeine analytische Form 
+dann bilden die Endpunkte der $\vec{r}_{\rho_{\hat{n}}}$ das sog. [Trägheitsellipsoid](https://de.wikipedia.org/wiki/Tr%C3%A4gheitsellipsoid), dessen allgemeine analytische Form 
 $$
 \begin{equation}
 \theta_{\hat{}n} = \frac{1}{\rho_{\hat{n}}^{2}}\left(x_{\hat{n}}^{2}\,\theta_{x} + y_{\hat{n}}^{2}\,\theta_{y} + z_{\hat{n}}^{2}\,\theta_{z} -2\left(x_{\hat{n}}y_{\hat{n}}\Theta_{xy} + y_{\hat{n}}z_{\hat{n}}\Theta_{yz} + 
 x_{\hat{n}}z_{\hat{n}}\Theta_{xz}\right)\right)
 \end{equation}
 $$
-man durch Einsetzen in Gleichung **(1)** erhält.  Das Trägheitsellipsoid besitzt drei Hauptachsen. Durch Gleichung **(3)** wird die Lage des Ellipsoids in einem allgemeinen Koordinatensystem $K$, wie in Skizze 2 gezeigt, beschrieben.
+man durch Einsetzen in Gleichung **(1)** erhält.  Das Trägheitsellipsoid besitzt drei Hauptachsen. Durch Gleichung **(3)** wird die Lage des Ellipsoids in einem allgemeinen Koordinatensystem $K$, wie in **Skizze 2** gezeigt, beschrieben.
 
 <img src="../figures/Traegheitsellipsoid.png" width="900" style="zoom:100%;" />
 
@@ -127,7 +127,7 @@ $$
 \end{split}
 \end{equation*}
 $$
-Die (kleinste) größte Hauptachse des Trägheitsellipsoids entspricht dabei dem (größten) kleinsten Hauptträgheitsmoment. 
+Die (kleinste) größte Hauptachse des Trägheitsellipsoids entspricht dabei dem (größten) kleinsten Hauptträgheitsmoment. Die Rotationen des Kreisels um diese beiden Achsen erfolgen stabil. diese beiden Achsen werden daher auch als freie Achsen bezeichnet. Drehungen des Kreisels um die Achse zum mittleren Hauptträgheitsmoment sind metastabil. 
 
 ### Klassifikation von Kreiseln
 

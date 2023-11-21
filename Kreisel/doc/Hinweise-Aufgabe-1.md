@@ -4,13 +4,13 @@
 
 ### Winkelgeschwindigkeit und Trägheitstensor
 
-In der Mechanik verwenden wir zur Beschreibung der Dynamik eines Massepunkts die physikalischen Größen Geschwindigkeit ($\vec{v}$), Impuls ($\vec{p}$) und Kraft ($\vec{F}$). Mit dem Kreisel betrachten wir einen rotierenden, starren Körper, mit endlicher Ausdehnung, zu dessen Beschreibung wir zu $\vec{v}$, $\vec{p}$ und $\vec{F}$ äquivalente Größen heranziehen:  
+In der Mechanik verwenden wir zur Beschreibung der Dynamik eines Massepunkts die physikalischen Größen Geschwindigkeit ($\vec{v}$), Impuls ($\vec{p}$) und Kraft ($\vec{F}$). Mit dem Kreisel betrachten wir einen rotierenden, [starren Körper](https://de.wikipedia.org/wiki/Starrer_K%C3%B6rper), mit endlicher Ausdehnung, zu dessen Beschreibung wir zu $\vec{v}$, $\vec{p}$ und $\vec{F}$ äquivalente Größen heranziehen:  
 
 - Das Äquivalent zu $\vec{v}$ ist die **Winkelgeschwindigkeit** $\vec{\omega}$; 
 - das Äquivalent zu $\vec{p}$ ist der **Drehimpuls** $\vec{L}$; und 
 - das Äquivalent zu $\vec{F}$ ist das **Drehmoment** $\vec{M}$.  
 
-Für ein gegebenes Massenelement $\mathrm{d}m$ wird der Zusammenhang dieser Größen zueinander durch das äußere Produkt ([Kreuzprodukt](https://de.wikipedia.org/wiki/Kreuzprodukt)) "$\times$" mit dem Ortsvektor $\vec{r}$ des Massenelements hergestellt: 
+Für ein gegebenes (infinitesimales) Massenelement $\mathrm{d}m$ wird der Zusammenhang dieser Größen zueinander durch das äußere Produkt ([Kreuzprodukt](https://de.wikipedia.org/wiki/Kreuzprodukt)) "$\times$" mit dem Ortsvektor $\vec{r}$ des Massenelements hergestellt: 
 $$
 \begin{equation*}
 \vec{v} = \vec{r}\times \vec{\omega}; \qquad
@@ -24,7 +24,7 @@ $$
 \vec{L} = \vec{r}\times\vec{p} = \mathrm{d}m \left(\vec{r}\times\vec{v}\right) = \mathrm{d}m \left(\vec{r}\times\left(\vec{r}\times\vec{\omega}\right)\right).
 \end{equation}
 $$
-Um das doppelte Kreuzprodukt in Gleichung **(1)** weiter zu aufzulösen, können wir auf eine Regel aus der [analytischen Geometrie](https://de.wikipedia.org/wiki/Analytische_Geometrie) (die sog. "bac-cab"-Regel) zurückgreifen:
+Um das doppelte Kreuzprodukt in Gleichung **(1)** weiter zu diskutieren, greifen wir auf eine Regel aus der [analytischen Geometrie](https://de.wikipedia.org/wiki/Analytische_Geometrie) (die sog. "bac-cab"-Regel) zurück:
 $$
 \begin{equation*}
 \vec{a}\times\vec{b}\times\vec{c} = \big(\vec{b}\cdot\vec{a}\big)\,\vec{c} - \big(\vec{c}\cdot\vec{a}\big)\,\vec{b}
@@ -106,13 +106,13 @@ $$
 \boldsymbol{\widetilde{\Theta}} = \bold{U}\cdot\boldsymbol{\Theta}\cdot\bold{U}^{-1}
 \end{equation*}
 $$
-entkoppelt werden, so dass $\boldsymbol{\widetilde{\Theta}}$ die Form einer [Diagonalmatrix](https://de.wikipedia.org/wiki/Diagonalmatrix) annimmt. Die Suche nach solchen Abbildungen $\bold{U}$ bezeichnet man als [Eigenwertproblem](https://de.wikipedia.org/wiki/Eigenwerte_und_Eigenvektoren). Die Matrix $\boldsymbol{\widetilde{\Theta}}$ führt die Basisvektoren des Vektors 
+entkoppelt werden, so dass $\boldsymbol{\widetilde{\Theta}}$ die Form einer [Diagonalmatrix](https://de.wikipedia.org/wiki/Diagonalmatrix) annimmt. Dabei entspricht $\bold{U^{-1}}$ der Inversen von $\bold{U}$. Die Suche nach solchen Abbildungen $\bold{U}$ bezeichnet man als [Eigenwertproblem](https://de.wikipedia.org/wiki/Eigenwerte_und_Eigenvektoren). Die Matrix $\boldsymbol{\widetilde{\Theta}}$ führt die Basisvektoren des Vektors 
 $$
 \begin{equation*}
 \vec{\tilde{\omega}} \equiv \bold{U}\cdot\vec{\omega}
 \end{equation*}
 $$
-bis auf die Multiplikation mit dem Eigenwert $\theta_{i}$ in sich selbst über. Die Transformation $\bold{U}$ entspricht also einem Wechsel von einer beliebigen Orthonormalbasis in eine Orthonormalbasis, die durch $\boldsymbol{\widetilde{\Theta}}$ in sich selbst abgebildet wird. 
+bis auf die Multiplikation mit dem Eigenwert $\theta_{i}$ in sich selbst über. Die Transformation $\bold{U}$ entspricht also einem Wechsel von einer beliebigen [Orthonormalbasis](https://de.wikipedia.org/wiki/Orthonormalbasis) in eine Orthonormalbasis, die durch $\boldsymbol{\widetilde{\Theta}}$ in sich selbst abgebildet wird. 
 
 ### Hauptachsentransformation
 
@@ -125,10 +125,10 @@ Die Eigenschaft, dass der Trägheitstensor aus Gleichung **(3)** **symmetrisch**
 Die Matrizen $\bold{U}$ zur Diagonalisierung von $\boldsymbol{\Theta}$ sind in diesem Fall Rotationsmatrizen $\bold{R}$ mit der (definierenden) Eigenschaft: 
 $$
 \begin{equation*}
-\bold{R}^{-1} = \bold{R}^{\intercal}.
+\bold{R}^{-1} = \bold{R}^{\intercal},
 \end{equation*}
 $$
-Die Lösung des Eigenwertproblems gewinnt dadurch eine **anschauliche geometrische Bedeutung**: 
+wobei $\bold{R}^{\intercal}$ der Transponierten von $\bold{R}$ entspricht. Die Lösung des Eigenwertproblems gewinnt dadurch eine **anschauliche geometrische Bedeutung**: 
 
 Es handelt sich um die Drehung von einem allgemeinen in ein spezielles Bezugssystem, in dem die Eigenvektoren des Problems aus Gleichung **(2)** parallel zu den [Hauptträgheitsachsen](https://de.wikipedia.org/wiki/Haupttr%C3%A4gheitsachse) des starren Körpers verlaufen. Diese Achsen sind durch die Form und Massenbelegung des Körpers vorgegeben. 
 
@@ -164,7 +164,7 @@ $$
 L_{i} = \theta_{i}\,\delta_{ij}\,\omega_{j}.
 \end{equation*}
 $$
-Die $\{\theta_{i}\}$ heißen in diesem Fall Hauptträgheitsmomente.
+Die $\{\theta_{i}\}$ heißen in diesem Fall **Hauptträgheitsmomente**.
 
 # Navigation
 
