@@ -62,7 +62,5 @@ Der Rotor des Kreisels wird durch zwei Kardanrahmen gehalten. An den äußeren K
 
 - Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-1.md).
 - Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-2.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/Datenblatt.md). 
 
-Das P1 befindet sich derzeit in der Umstellung zu verbesserten Anleitungen, die alle notwendigen Informationen zur Vorbereitung auf den Versuch beinhalten. 
-
-Im Verzeichnis [`doc`](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc) finden Sie auch noch die originale Version der alten Anleitunge. In einigen Fällen weichen Nummerierungen und Reihenfolge der Versuchsteile in den alten Anleitungen von der jeweiligen Version in Jupyter-notebook ab. In diesen Fällen ist die jeweilige Version der **Durchführung in Jupyter-notebook** für Sie maßgeblich! 
