@@ -70,13 +70,13 @@ Passen die an sich ergebenden Kurven jeweils ein Modell nach Gleichung (**(1)** 
 
 #### Aufgabe 2.3 Präzession
 
-Die Messung von $\Omega$ gleicht im Prinzip der Messung von $\omega_{N}$. Das für die Präzession nötige Drehmoment wird durch ein zusätzliches Gewicht am inneren Kardanrahmen verursacht, das durch eine Stahlstange eingebracht wird, die auf der dem Antriebsflansch gegenüberliegenden Seite, aufgeschraubt wird. 
+Die Messung von $\Omega$ gleicht im Prinzip der Messung von $\omega_{N}$. Das für die Präzession nötige Drehmoment wird durch ein zusätzliches Gewicht am inneren Kardanrahmen verursacht, das durch einen Stahlstab eingebracht wird, der auf der dem Antriebsflansch gegenüberliegenden Seite, aufgeschraubt wird. 
 
-Die Messung von $\Omega$ erfolgt dann per Hand, mit einer Stoppuhr. Achten Sie darauf vor dem Start jeder Messung alle Nutationsbewegungen am inneren Kardanrahmen sachte abzudämpfen und die Schwanenhalshalterungen aus dem Schwenkbereich der sich drehenden Stahlstange zu räumen. Kontrollieren $\omega$ sowohl vor, als auch nach der Messung von $\Omega$.
+Messen Sie dann $T=2\pi/\Omega$ mit einer Stoppuhr. Achten Sie darauf vor dem Start jeder Messung alle Nutationsbewegungen am inneren Kardanrahmen sachte abzudämpfen und die Schwanenhalshalterungen aus dem Schwenkbereich des sich drehenden Stabs zu räumen. Kontrollieren $\omega$ sowohl vor, als auch nach der Messung von $T$.
 
-Wiederholen Sie die Messreihe mit verschiedenen Gewichten an der Metallstange und tragen Sie $\Omega$ jeweils als Funktion von $\omega$ auf. Sie sollten mindestens 30 Messpunkte aufnehmen, die Sie auf verschiedene Messreihen mit verschiedenen Gewichten am Stab aufteilen können. 
+Wiederholen Sie die Messreihe mit verschiedenen Positionen des zusätzlichen Gewichts am Stab und tragen Sie $T(\omega)$ jeweils als Funktion von $\omega$ auf. Sie sollten mindestens 30 Messpunkte aufnehmen, die Sie auf verschiedene Messreihen mit verschiedenen Positionen des Gewichts am Stab aufteilen können. 
 
-Passen die an sich ergebenden Kurven jeweils ein Modell nach Gleichung (**(3)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-2-a.md)) an. 
+Passen Sie an die sich ergebenden Kurven jeweils ein Modell nach Gleichung (**(3)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-2-a.md)) an. 
 
 # Navigation
 
