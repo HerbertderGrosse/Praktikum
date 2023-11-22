@@ -29,7 +29,7 @@ Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem
 
 ## Versuchsaufbau
 
-Dieser Versuch ist zweigeteilt. Im Folgenden sind die verwendeten Aufbauten kurz beschrieben. Eine Auflistung der für ihre Auswertung wichtigen Bauteile und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Kreisel/Datenblatt.md).
+Dieser Versuch ist zweigeteilt. Im Folgenden sind die verwendeten Aufbauten kurz beschrieben. Eine Auflistung der für ihre Auswertung wichtigen Bauteile und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/Datenblatt.md).
 
 ### Physik starrer Körper
 
