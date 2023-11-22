@@ -40,7 +40,7 @@ Die Präzessionsbewegung sollten Sie per Hand mit einer Stoppuhr aufnehmen.
 Bringen Sie den Kreisel für diese Messung mit Hilfe des Motors auf etwa $2000\,\text{Umdrehungen pro min}$. Bis der Kreisel zum Stillstand kommt, vergehen daraufhin etwa $35\,\mathrm{min}$. Sie können die Dämpfungskurve auf zweierlei Wese aufnehmen: 
 
 - Sie protokollieren $\omega(t)$ alle $30\,\mathrm{s}$. Auf diese Weise erhalten Sie etwa 60 Messwerte;
-- Sie verwenden eine Messbox, die die Messwerte automatisch aufnimmt. Hierzu benötigen Sie einen Laptop mit einem Windows Betriebssystem zur Auslese der Messbox via USB-Verbindung.
+- Sie verwenden eine Messbox, die die Messwerte automatisch aufnimmt. Hierzu benötigen Sie einen Laptop mit Windows Betriebssystem zur Auslese via USB-Verbindung und die Möglichkeit `python` aus einem Terminal auszuführen. Die Software zur Auslese der  Messbox finden Sie unter [diesem Link](https://github.com/Xraydylan/MessBox). Wenn Sie die Messbox für die Auslese der Daten verwenden möchten sollte diese Software lokal auf dem entsprechenden Laptop installiert sein.
 
 Tragen Sie die Messwerte als Funktion von $t$ auf. Es empfiehlt sich ein phänomenologisches Modell der Art
 $$
@@ -64,7 +64,7 @@ Gehen Sie dann wie folgt vor:
 - Führen Sie eine Messreihe ohne und eine zweite Messreihe mit Zusatzgewichten an den Enden des inneren Kardanrahmens durch. 
 - Schrauben Sie hierzu die Zusatzgewichte zusammen mit zwei $0,5\,\mathrm{mm}$ dicken Unterlegscheiben aus Teflon auf die überstehenden Gewinde der inneren Kardanachse auf. Positionieren Sie die Zylinder so, dass deren Symmetrieachsen parallel zur Senkrechten (und damit parallel zur Drehachse des äußeren Kardanrahmens) stehen, um die Berechnung der durch die Gewichte zusätzlich eingebrachten Trägheitsmomente in $\theta_{x}^{(a)}$ nicht unnötig zu erschweren. Schrauben Sie die Gewichte gerade so fest, dass sie durch die Nutationsbewegung nicht aus ihrer variablen Lage gebracht werden; die Teflonscheiben sind flexibel und sollten den nötigen Spielraum hierzu bieten.
 - Die zylindrischen Zusatzgewichte führen zu einem wesentlich höherem Trägheitsmoment des äußeren Kardanrahmens um die Senkrechte, woraus eine entsprechend veränderte Abhängigkeit zwischen $\omega_{N}$ und $\omega$ resultiert. 
-- Ohne Gewichte können Sie $\omega_{N}$ bis zu Frequenzen von $\omega/2\pi\approx 10\,\mathrm{Hz}$ noch einigermaßen verlässlich bestimmen; mit Gewichten bis zu Frequenzen von $\omega/2\pi\approx 25\,\mathrm{Hz}$.
+- Ohne Gewichte können Sie $\omega_{N}$ bis zu Frequenzen von $\omega/2\pi\approx 10\,\mathrm{Hz}$ noch einigermaßen verlässlich bestimmen; mit Gewichten bis zu Frequenzen von $\omega/2\pi\approx 15\,\mathrm{Hz}$.
 
 Passen die an sich ergebenden Kurven jeweils ein Modell nach Gleichung (**(1)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-2-a.md)) an. 
 
