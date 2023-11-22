@@ -171,7 +171,7 @@ $$
 Z_{0} = \sqrt{\frac{L'}{C'}}
 \end{equation*}
 $$
-reellwertig und zunächst frequenzunabhängig. Es besteht jedoch im Allgemeinen eine weitere Frequenzabhängigkeit durch die Lösung der Zeitabhängigkeit (siehe [Hinweise zu Aufgabe 2](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)). 
+reellwertig und zunächst frequenzunabhängig. Es besteht jedoch im Allgemeinen eine weitere Frequenzabhängigkeit durch die Lösung der Zeitabhängigkeit (siehe [Hinweise zu Aufgabe 2](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)). 
 
 Die Ausbreitungskonstante und der Leitungswellenwiderstand werden auch als **sekundäre Leitungsparameter** bezeichnet.
 
@@ -189,5 +189,5 @@ Für die offene Leitung ($Z_{\mathrm{A}}\to\infty$ ) gilt $\rho=1$, das Signal w
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen)
 

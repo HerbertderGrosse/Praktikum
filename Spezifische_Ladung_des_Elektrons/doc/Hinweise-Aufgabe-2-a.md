@@ -5,7 +5,7 @@
 
 ### Berechnung von $e/m_{e}$
 
-Beim hier verwendeten Aufbau sind die Voraussetzungen für eine als *lang* angenommene Spule aus Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) nicht mehr erfüllt. Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) muss daher auf folgende Weise modifiziert werden:
+Beim hier verwendeten Aufbau sind die Voraussetzungen für eine als *lang* angenommene Spule aus Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) nicht mehr erfüllt. Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) muss daher auf folgende Weise modifiziert werden:
 $$
 \begin{equation}
 B(a, I, \ell)=B_{0}
@@ -15,7 +15,7 @@ B(a, I, \ell)=B_{0}
 \right)\right). 
 \end{equation}
 $$
-Dabei ist $a$ der Abstand von $B$ vom Spulenanfang im Eintrittspunkt $E$ auf der $z$-Achse, $\ell$ die Länge und $R$ der mittlere Radius der Spule; $B_{0}$ ist aus Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) zu entnehmen. Einen Vergleich der mit Hilfe von Gleichung **(1)** bestimmten, erwarteten Werte von $B$ mit einer Kalibrationsmessung, für fünf verschiedene Magnetspulenströme $I$ ist in **Abb. 1** gezeigt: 
+Dabei ist $a$ der Abstand von $B$ vom Spulenanfang im Eintrittspunkt $E$ auf der $z$-Achse, $\ell$ die Länge und $R$ der mittlere Radius der Spule; $B_{0}$ ist aus Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) zu entnehmen. Einen Vergleich der mit Hilfe von Gleichung **(1)** bestimmten, erwarteten Werte von $B$ mit einer Kalibrationsmessung, für fünf verschiedene Magnetspulenströme $I$ ist in **Abb. 1** gezeigt: 
 
 <img src="../figures/Busch-Magnetfeld.png" width="500" style="zoom:80%;" />
 
@@ -31,7 +31,7 @@ $$
 v_{z} = \sqrt{2\,U\,e/m_{\mathrm{e}}}
 \end{equation*}
 $$
-ergibt sich aus Gleichung (**(2)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)). Für die Kreisbahn der Elektronen in der $xy$-Ebene ergibt sich: 
+ergibt sich aus Gleichung (**(2)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)). Für die Kreisbahn der Elektronen in der $xy$-Ebene ergibt sich: 
 $$
 \begin{equation}
 \begin{split}

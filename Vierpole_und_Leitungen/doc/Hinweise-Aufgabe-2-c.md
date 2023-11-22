@@ -16,17 +16,17 @@ Bestimmen Sie abschließend nochmals $\omega_{0}$, diesmal aber aus $\Delta\varp
 
 - Betreiben Sie das Oszilloskop im Zweikanalmodus. Legen Sie dabei $U_{0}$ auf einen und $U_{1}$ auf den anderen Eingang. So können Sie den Verlauf beider Signale als [Lissajous-Figur](https://de.wikipedia.org/wiki/Lissajous-Figur) darstellen und Vielfache von $\Delta\varphi=n\hspace{0.05cm}\pi,\hspace{0.15cm}n\in\mathbb{N}$ leicht aus den sich einstellenden Diagonalen ablesen.
 
-- Für das $\pi$-Glied gilt $\Delta\varphi(\omega_{0})=\pi$. Für die sechsgliedrige Drosselkette ist $\Delta\varphi$ um den Faktor $n=6$ relativ zum $\pi$-Glied verstärkt (siehe Diskussion [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)). Bestimmen Sie $\omega$ für die am Oszilloskop ermittelten Werte von $\Delta\varphi=1\pi,2\pi,3\pi,4\pi,5\pi$. 
+- Für das $\pi$-Glied gilt $\Delta\varphi(\omega_{0})=\pi$. Für die sechsgliedrige Drosselkette ist $\Delta\varphi$ um den Faktor $n=6$ relativ zum $\pi$-Glied verstärkt (siehe Diskussion [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)). Bestimmen Sie $\omega$ für die am Oszilloskop ermittelten Werte von $\Delta\varphi=1\pi,2\pi,3\pi,4\pi,5\pi$. 
 - Tragen Sie die ermittelten Werte für $\omega$ gegen $n\cdot\pi/6, \hspace{0.15cm}n=1\ldots5$ auf und passen Sie eine Gerade an den Verlauf der Messwerte an. Aus der Steigung der Geraden erhalten Sie eine Messung für $\omega_{0}$. Beurteilen sie die Güte der Anpassung. 
 
 Vergleichen den so ermittelten Wert und dessen Unsicherheit mit Ihrem Ergebnis aus Aufgabe 2.2.  
 
 #### Aufgabe 2.5: Reflexionen
 
-- Schließen Sie für diesen Versuchsteil das Ende der Drosselkette kurz ($Z_{0}=0\,\Omega$). Dadurch wird das Signal am Kettenende mit einem Phasensprung von $\pi$ reflektiert (siehe Diskussion [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). 
+- Schließen Sie für diesen Versuchsteil das Ende der Drosselkette kurz ($Z_{0}=0\,\Omega$). Dadurch wird das Signal am Kettenende mit einem Phasensprung von $\pi$ reflektiert (siehe Diskussion [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). 
 - Vermeiden Sie Reflexionen am Leitungsanfang, indem Sie einen Steckwiderstand $Z_{\mathrm{E}}\approx Z_{0}$ zwischen Signalgenerator und Kettenanfang schalten. Ersetzen Sie hierzu den Kurzschlussstecker zwischen Generator und Kettenanfang durch den zur Verfügung stehenden $200\hspace{0.05cm}\Omega$-Vorwiderstand.  
 - Schließen Sie eine rechteckförmige Wechselspannung ($\nu\approx20\hspace{0.05cm}\mathrm{kHz}$) an. Welche Signalform beobachten Sie am Kettenanfang? Entspricht dies Ihrer Erwartung?   
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-b.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-b.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen)

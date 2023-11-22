@@ -10,7 +10,7 @@
 
 - Die Bewegung des Motors wird über einen Winkelgeber in eine Spannung ($0-5\hspace{0.05cm}\mathrm{V}$) umgewandelt und über den zweiten CASSY-Eingang (Eingang B) ausgelesen. Damit die Nulllage mit dem Pendel übereinstimmt, müssen Sie zu Beginn einen *offset* von $2,5\hspace{0.05cm}\mathrm{V}$ vorgegeben. 
 
-- Die Drehzahl des Antriebsmotors wird aus dem Winkel-Zeit-Diagramm mit Hilfe des CASSY-Systems bestimmt. Achten Sie auf eine ausreichende Dichte der Messpunkte, besonders in Resonanznähe und passen Sie die Schrittweite entsprechend an (siehe [Hinweise-CASSY.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-CASSY.md)). 
+- Die Drehzahl des Antriebsmotors wird aus dem Winkel-Zeit-Diagramm mit Hilfe des CASSY-Systems bestimmt. Achten Sie auf eine ausreichende Dichte der Messpunkte, besonders in Resonanznähe und passen Sie die Schrittweite entsprechend an (siehe [Hinweise-CASSY.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-CASSY.md)). 
 
 - Vergleichen Sie den Verlauf der gemessenen Resonanzkurven mit Ihrer Erwartung. Benutzen Sie zur Bestimmung von $Q(I_{\mathrm{B}})$ die Werte für $\Omega$ bei denen die Amplitude jeweils auf den Wert $1/\sqrt{2}$ des maximalen Werts abgefallen ist. Vergleichen Sie Ihre Ergebnisse mit denen von Aufgabe 1.3.
 

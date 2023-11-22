@@ -32,7 +32,7 @@ Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem
 
 ## Versuchsaufbau
 
-Der Versuch umfasst einen Frequenzgenerator, ein Oszilloskop zur Untersuchung der erzeugten Signale an verschiedenen Stellen des zu untersuchenden Vierpols und eine Anzahl von Steckbrettern, an denen die zu untersuchenden Schaltungen entsprechen aufgebaut oder vervollständigt werden können. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/Datenblatt.md?ref_type=heads).
+Der Versuch umfasst einen Frequenzgenerator, ein Oszilloskop zur Untersuchung der erzeugten Signale an verschiedenen Stellen des zu untersuchenden Vierpols und eine Anzahl von Steckbrettern, an denen die zu untersuchenden Schaltungen entsprechen aufgebaut oder vervollständigt werden können. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/Datenblatt.md).
 
 <img src="./figures/VierpoleAufbau.png" width="900" style="zoom:100%;" />
 
@@ -40,8 +40,8 @@ Zur Schaltung einfacher Vierpole stehen Ihnen verschiedene ohmsche Widerstände,
 
 # Navigation
 
-- Eine kurze Einführung in die stromleitungsgebundene Signalübertragung finden Sie in der Datei [Hinweise-Leitungen.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md?ref_type=heads).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-1.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc//Hinweise-Aufgabe-2.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/Datenblatt.md).  
+- Eine kurze Einführung in die stromleitungsgebundene Signalübertragung finden Sie in der Datei [Hinweise-Leitungen.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/Datenblatt.md).  

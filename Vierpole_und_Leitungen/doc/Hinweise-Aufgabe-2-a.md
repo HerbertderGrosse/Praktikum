@@ -4,7 +4,7 @@
 
 ### Leitungseigenschaften
 
-Aus der Substitution (Gleichung **(6)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md))
+Aus der Substitution (Gleichung **(6)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md))
 $$
 \begin{equation*}
 \cosh\gamma\equiv\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}+1;\qquad \sinh\gamma\equiv\frac{Z_{\mathrm{L}}}{Z_{0}}= \sqrt{\frac{2\,Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}
@@ -52,4 +52,4 @@ d.h. die (ideale) Drosselkette hat die **Eigenschaft eines Tiefpasses**: Unterha
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-b.md)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-b.md)

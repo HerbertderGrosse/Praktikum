@@ -37,7 +37,7 @@ Dieser Versuch ist zweigeteilt. Den ersten Teil bestreiten Sie mit dem [Pohlsche
 
 <img src="./figures/ResonanzAufbau.png" width="900" style="zoom:100%;" />
 
-In einem zweiten Teil bauen Sie einen einfachen elektrischen Serienschwingkreis auf und führen daran Resonanzuntersuchungen durch. Die meisten Elemente, die Sie für beide Versuchsteile benötigen sind Bestandteile des CASSY-Systems. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/Datenblatt.md).
+In einem zweiten Teil bauen Sie einen einfachen elektrischen Serienschwingkreis auf und führen daran Resonanzuntersuchungen durch. Die meisten Elemente, die Sie für beide Versuchsteile benötigen sind Bestandteile des CASSY-Systems. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/Datenblatt.md).
 
 ## Wichtige Hinweise zum Versuch
 
@@ -45,7 +45,7 @@ Sie benötigen einen **USB-Stick oder sonstigen Datenträger** zur Übermittlung
 
 # Navigation
 
-- Eine kurze Einführung ins CASSY-Messsystem finden Sie in der Datei [Hinweise-CASSY.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-CASSY.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md) 
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-2.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Resonanz/Datenblatt.md).  
+- Eine kurze Einführung ins CASSY-Messsystem finden Sie in der Datei [Hinweise-CASSY.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-CASSY.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-1.md) 
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-2.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/Datenblatt.md).  

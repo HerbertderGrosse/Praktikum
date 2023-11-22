@@ -42,5 +42,5 @@ Die Schwingung des physikalischen Pendels ist also zur Schwingung eines mathemat
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-2-a.md)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-2-a.md)
 

@@ -3,7 +3,7 @@
 ## Das CASSY-Messsystem
 
 CASSY steht für **C**omputer **A**ided **S**cience **Sy**stem. CASSY stellt ein vollständiges Messsystem mit einer seriellen RS-232 (oder USB-)Schnittstelle dar. Die Steuerung erfolgt über den PC mit der CASSY-Lab-2 Software unter Windows XP.
-Eine detaillierte Beschreibung dieser Software ist im umfangreichen [Handbuch](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/doc/CassyLab-2-Handbuch-Auszuege.pdf) zu finden. Eine Kurzfassung finden Sie [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/doc/CassyLab-2-Handbuch-Auszuege.pdf). In der hier vorliegenden Datei fassen wir die grundlegenden und für den Versuch wichtigsten Optionen für Sie zusammen.
+Eine detaillierte Beschreibung dieser Software ist im umfangreichen [Handbuch](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/doc/CassyLab-2-Handbuch-Auszuege.pdf) zu finden. Eine Kurzfassung finden Sie [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/doc/CassyLab-2-Handbuch-Auszuege.pdf). In der hier vorliegenden Datei fassen wir die grundlegenden und für den Versuch wichtigsten Optionen für Sie zusammen.
 
 Das CASSY Grundmodul (Sensor-CASSY) stellt 2 Eingangskanäle zur Verfügung, die verschiedene Messgrößen erfassen können. Im Resonanzversuch mit
 dem [Pohlschen Rad](https://de.wikipedia.org/wiki/Pohlsches_Rad) wird an den Kanal A eine sogenannte BMW-Box angeschlossen die es erlaubt, die Lichtschrankenimpulse der Drehpendelbewegung als Wegstrecke zu erfassen. Mit Kanal B können gleichzeitig die Spannungssignale aus dem Winkelgeber erfasst werden,

@@ -159,4 +159,4 @@ wobei $m_{S}$ der Masse der Scheibe, $L$ dem Abstand zwischen Aufhängung und de
 
 #  Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-3-a.md)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-3-a.md)

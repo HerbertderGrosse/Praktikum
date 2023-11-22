@@ -6,7 +6,7 @@
 
 #### Aufgabe 2.1: Bestimmung der charakteristischen Impedanz $Z_{0}$
 
-Bei dieser Messung nutzen wir den Umstand, dass das Eingangssignal für $Z_{\mathrm{A}}=Z_{0}$ am Ende der Leitung **nicht** reflektiert wird (siehe Diskussion [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). 
+Bei dieser Messung nutzen wir den Umstand, dass das Eingangssignal für $Z_{\mathrm{A}}=Z_{0}$ am Ende der Leitung **nicht** reflektiert wird (siehe Diskussion [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). 
 
 Für den Fall $Z_{\mathrm{A}}\neq Z_{0}$ treten Reflexionen am Leitungsende auf, so dass das beobachtete Signal am Leitungsanfang eine Überlagerung aus dem ursprünglichen Signal und ggf. sogar mehrerer Reflexionen an den Leitungsenden ist.  Wie wählen für die Messung daher eine Signalform aus, mit der wir Überlagerungen möglichst einfach erkennen können. Sobald Sie Sie bei der Reglung von $Z_{\mathrm{A}}$ die charakteristische Impedanz $Z_{\mathrm{A}}=Z_{0}$ erreichen sollten Sie das Eingangssignal unverfälscht beobachten können. Durch die Wahl einer niedrigen Frequenz $\omega\ll\omega_{0}$ bestimmen Sie auf diese Weise in guter Näherung
 $$
@@ -41,4 +41,4 @@ Bestimmen Sie $C$ und $L$ aus den zuvor bestimmten Werten für $Z_{0}$ und $\ome
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-a.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-c.md)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-a.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-c.md)

@@ -4,7 +4,7 @@
 
 ### Mechanische Schwingung
 
-Im Fall der angeregten oder erzwungenen Schwingung wird eine Schwingung mit der Amplitude $\Phi$ und Frequenz $\Omega$ von außen vorgegeben. Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) nimmt somit die folgende Form an: 
+Im Fall der angeregten oder erzwungenen Schwingung wird eine Schwingung mit der Amplitude $\Phi$ und Frequenz $\Omega$ von außen vorgegeben. Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) nimmt somit die folgende Form an: 
 $$
 \begin{equation}
 \Theta\,\ddot{\varphi} + \delta\,\dot{\varphi} + D\,\varphi = \Phi \,e^{i\Omega\,t}.
@@ -43,7 +43,7 @@ $$
 \end{split}
 \end{equation}
 $$
-Nach einem **Einschwingvorgang**, der sich durch die Lösung von Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) ergibt stellt sich also eine Schwingung mit der Frequenz $\Omega$, der konstanten Amplitude $\varphi_{0}$ und der festen Phase $\phi$ relativ zur anregenden Schwingung ein. 
+Nach einem **Einschwingvorgang**, der sich durch die Lösung von Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) ergibt stellt sich also eine Schwingung mit der Frequenz $\Omega$, der konstanten Amplitude $\varphi_{0}$ und der festen Phase $\phi$ relativ zur anregenden Schwingung ein. 
 
 Wir diskutieren drei Spezialfälle:
 
@@ -63,7 +63,7 @@ $$
 \Delta\Omega\approx2\lambda \approx \frac{\Omega_{\mathrm{res}}}{Q},
 \end{equation}
 $$
-wobei $Q$ dem Gütefaktor von Gleichung (**(8)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) entspricht. Die Dämpfung $\lambda$ der Schwingung hat also Einfluss auf die Breite der Resonanzkurve. Daraus leitet sich die zweite gebräuchliche Definition von $Q$ als 
+wobei $Q$ dem Gütefaktor von Gleichung (**(8)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) entspricht. Die Dämpfung $\lambda$ der Schwingung hat also Einfluss auf die Breite der Resonanzkurve. Daraus leitet sich die zweite gebräuchliche Definition von $Q$ als 
 
 $$
 \begin{equation*}

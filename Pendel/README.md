@@ -34,7 +34,7 @@ Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem
 
 ## Versuchsaufbau
 
-Mit diesem Versuch stehen Ihnen mehrere Pendel zur Verfügung, deren Schwingungsverhalten Sie untersuchen werden. Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten kurz zusammengefasst. Die angegebenen Größen finden Sie zudem in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/Datenblatt.md) und in *python*-Modulen im *params*-Verzeichnis, auf dem SCC Gitlab server. 
+Mit diesem Versuch stehen Ihnen mehrere Pendel zur Verfügung, deren Schwingungsverhalten Sie untersuchen werden. Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten kurz zusammengefasst. Die angegebenen Größen finden Sie zudem in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Pendel/Datenblatt.md) und in *python*-Modulen im *params*-Verzeichnis, auf dem SCC Gitlab server. 
 
 ### [Fadenpendel](https://de.wikipedia.org/wiki/Mathematisches_Pendel)
 
@@ -62,7 +62,7 @@ Zwei baugleiche physikalische Pendel bestehen aus einem langen, dünnen Stab und
 
 # Navigation
 
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/doc/Hinweise-Aufgabe-1.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/doc//Hinweise-Aufgabe-2.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/doc//Hinweise-Aufgabe-3.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/Datenblatt.md).  
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Pendel/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Pendel/doc/Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Pendel/doc/Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Pendel/Datenblatt.md).  

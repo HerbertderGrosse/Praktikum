@@ -50,7 +50,7 @@ Diese Methode zur Messung der Lichtgeschwindigkeit basiert auf der Messung der P
 
 # Navigation
 
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-1.md).
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-2.md).
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-3.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Datenblatt.md). 
+- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Lichtgeschwindigkeit/Datenblatt.md). 

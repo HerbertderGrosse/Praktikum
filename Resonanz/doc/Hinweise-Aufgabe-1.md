@@ -120,7 +120,7 @@ $$
 
 ### Gütefaktor
 
-Für den [Gütefaktor](https://de.wikipedia.org/wiki/G%C3%BCtefaktor) $Q$ sind zwei unterschiedliche Definition gebräuchlich, die für hinreichend große Werte von $Q$ näherungsweise äquivalent sind (siehe [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-2.md)). Wir verwenden hier die Definition
+Für den [Gütefaktor](https://de.wikipedia.org/wiki/G%C3%BCtefaktor) $Q$ sind zwei unterschiedliche Definition gebräuchlich, die für hinreichend große Werte von $Q$ näherungsweise äquivalent sind (siehe [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-2.md)). Wir verwenden hier die Definition
 $$
 \begin{equation}
 \begin{split}

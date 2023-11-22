@@ -50,4 +50,4 @@
 
 #  Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-3.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-3.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel)

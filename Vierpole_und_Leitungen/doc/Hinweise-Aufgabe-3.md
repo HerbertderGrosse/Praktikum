@@ -43,7 +43,7 @@ Bestimmen Sie $\epsilon$ aus den Werten, die Sie in den Aufgaben 4.1 und 4.2 bes
 
 - Die Bestimmung aus dem gemessenen Wert von $Z_{0}$ erfolgt über Gleichung **(2)**, unter Verwendung der Parameter $d_{a}$ und $d_{i}$.
 - Bestimmen Sie für jeden Wert von $\epsilon$ auch die entsprechende Unsicherheit durch Fehlerfortpflanzung. 
-- Vergleichen Sie die von Ihnen bestimmten Werte untereinander und vergleichen Sie sie mit der Erwartung aus den Angaben zu diesem Versuch (siehe [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/Datenblatt.md)). 
+- Vergleichen Sie die von Ihnen bestimmten Werte untereinander und vergleichen Sie sie mit der Erwartung aus den Angaben zu diesem Versuch (siehe [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen/Datenblatt.md)). 
 
 Die Bestimmung aus $\tau'$ erfolgt aus der Gruppengeschwindigkeit des Signals im Kabel:
 $$
@@ -59,5 +59,5 @@ wobei $c$ der Lichtgeschwindigkeit (im Vakuum) entspricht. Berechnen Sie $\epsil
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen)
 

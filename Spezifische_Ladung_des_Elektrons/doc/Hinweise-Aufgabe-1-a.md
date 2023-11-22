@@ -14,10 +14,10 @@ Das Magnetfeld $\vec{B}$ des Fadenstrahlrohrs wird durch zwei im Plexiglaskasten
 - In den Bohrungen von $M$ können Sie die [Hall-Sonde](https://de.wikipedia.org/wiki/Hall-Effekt) befestigen. Messen Sie $U_{\mathrm{H}}$ an den vorgesehenen Stellen für die Spulenströme $1,0\hspace{0.05cm}\mathrm{A}$, $1,5\hspace{0.05cm}\mathrm{A}$ und $2,0\hspace{0.05cm}\mathrm{A}$. Nutzen Sie hierzu alle zu Verfügung stehenden Bohrungen.
 - Der angezeigte Wert von $U_{\mathrm{H}}$ hängt von der Temperatur der Hall-Sonde ab. Achten Sie daher während des Betriebs darauf, dass die Sonde nicht allzu starken Temperaturänderungen ausgesetzt ist. Lassen Sie die Sonde z.B. nicht allzu lange eingeschaltet.
 
-Kalibrieren Sie anschließend die Hall-Sonde mit Hilfe von Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)). Gehen Sie dabei wie folgt vor: 
+Kalibrieren Sie anschließend die Hall-Sonde mit Hilfe von Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)). Gehen Sie dabei wie folgt vor: 
 
 - Messen Sie etwa **10 Wertepaare** aus $U_{\mathrm{H}}$ und dem Strom $I$ durch die lange Spule, die Ihnen zur Kalibration der Hall-Sonde zur Verfügung steht.  
-- Aus der Stromstärke $I$ können Sie mit Hilfe von Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) $B$ berechnen. Bestimmen Sie aus den aufgezeichneten Datenpunkten eine Eichgerade $B(U_{\mathrm{H}})$. 
+- Aus der Stromstärke $I$ können Sie mit Hilfe von Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) $B$ berechnen. Bestimmen Sie aus den aufgezeichneten Datenpunkten eine Eichgerade $B(U_{\mathrm{H}})$. 
 - Mit Hilfe dieser Eichgeraden können Sie die in Aufgabe 1.1 bestimmten Werte von $U_{\mathrm{H}}$ in magnetische Feldstärken $B(U_{\mathrm{H}})$ übersetzen. 
 
 Die Kalibration erfolgt **nach der eigentlichen Ausmessung** des Magnetfeldes mit der Hall-Sonde, damit Sie wissen, welcher Wertebereich von $U_{\mathrm{H}}$ für die Kalibration von Relevanz ist.  
