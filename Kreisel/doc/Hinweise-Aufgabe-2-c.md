@@ -66,7 +66,7 @@ wobei $m_{\mathrm{Stab}}$ der Masse und und $s$ dem Abstand des Schwerpunkts des
 
 $$
 \begin{equation*}
-\theta_{z}' = \frac{m_{\mathrm{Stab}}\,g\,s}{\kappa}.
+\theta_{z}' = \frac{m_{\mathrm{Stab}}\,g\,s\,\kappa}{2\pi}.
 \end{equation*}
 $$
 
