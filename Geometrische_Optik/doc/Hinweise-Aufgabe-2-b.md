@@ -14,7 +14,7 @@ Zwar sind $g$ und $b$ nicht bekannt, $\beta$ kann aber aus $G$ und $B$ bestimmt 
 
 #### Methode 1:
 
-Trägt man $x(f, h_{x})$ als Funktion von $(1+1/\beta)$ und $x^\prime(f, h^\prime_{x})$ als Funktion von $(\beta+1)$ auf sollte sich jeweils ein linearer Zusammenhang ergeben, aus dem sich $f$ als Steigung und $h_{x}$ ($h'_{x}$) als Achsenabschnitt ablesen lassen. durch Anpassung zweier unabhängiger Modelle nach Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-a.md)) erhalten Sie jeweils einen Wert für $h_{x}$ und $h'_{x}$ und zwei unabhängige Werte für $f$. Die Werte für $f$ sollten innerhalb ihrer Unsicherheiten übereinstimmen.  
+Trägt man $x(f, h_{x})$ als Funktion von $(1+1/\beta)$ und $x^\prime(f, h^\prime_{x})$ als Funktion von $(\beta+1)$ auf sollte sich jeweils ein linearer Zusammenhang ergeben, aus dem sich $f$ als Steigung und $h_{x}$ ($h'_{x}$) als Achsenabschnitt ablesen lassen. durch Anpassung zweier unabhängiger Modelle nach Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-a.md)) erhalten Sie jeweils einen Wert für $h_x$ und $h'_{x}$ und zwei unabhängige Werte für $f$. Die Werte für $f$ sollten innerhalb ihrer Unsicherheiten übereinstimmen.  
 
 #### Methode 2:
 
