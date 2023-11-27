@@ -4,7 +4,15 @@
 
 ### Bestimmung von $f_{1}$ und $f_{2}$
 
-Wir gehen im Folgenden davon aus, dass Sie $X$ exakt zwischen $L_{1}$ und $L_{2}$ gewählt haben. In diesem Fall liegen die Scheitelpunkte der Linsen bei $\pm d/2$ und Sie können $f_{1}$ und $f_{2}$ aus (Gleichung **(3)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)), wie folgt bestimmen:
+Zur Lösung dieser Aufgabe stehen Ihnen wieder mehrere Möglichkeiten zur Verfügung: 
+
+#### Methode 1:
+
+Tragen Sie die Kehrwerte der ermittelten Werte von $f$ als Funktion von $d$ auf. Passen Sie entweder das Modell einer Geraden an, aus dem Sie $f_{1}$ und $f_{2}$ aus Steigung und Achsenabschnitt bestimmen können. Alternativ können Sie (Gleichung **(1)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)) als Modell für die Anpassung verwenden und $f_{1}$ und $f_{2}$ direkt bestimmen.
+
+#### Methode 2:
+
+Zur Beschreibung dieser Methode gehen wir, zur Vereinfachung, davon aus, dass Sie $X$ exakt zwischen $L_{1}$ und $L_{2}$ gewählt haben. In diesem Fall liegen die Scheitelpunkte der Linsen bei $\pm d/2$ und Sie können $f_{1}$ und $f_{2}$ aus (Gleichung **(3)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)), wie folgt bestimmen:
 $$
 \begin{equation}
 \begin{split}
@@ -13,7 +21,7 @@ $$
 \end{split}
 \end{equation}
 $$
-Wenn Sie $h_{x}$ und $h_{x}'$ in Ihrem Modell aus (Gleichung **(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-a.md)) entsprechend einsetzen 
+Wenn Sie $h_{x}$ und $h_{x}'$ in Ihrem Modell aus (Gleichung **(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-a.md)) entsprechend einsetzen 
 $$
 \begin{equation}
 \begin{split}
@@ -25,8 +33,8 @@ $$
 $$
 können Sie aus der Anpassung $f_{1}$, $f_{2}$ und $f$ gemeinsam bestimmen. 
 
-Alternativ können Sie $f_{1}$ und $f_{2}$ direkt aus (Gleichung **(1)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)) bestimmen, indem Sie $f$ für verschiedene Werte von $d$ bestimmen, die Kehrwerte der ermittelten Werte von $f$ als Funktion von $d$ auftragen und (Gleichung (1) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)) als Modell für die Anpassung verwenden. Verwenden Sie für diese Anpassung ggf. die aus dem Modell aus Gleichung (2) bestimmten Werte als Startwerte.  
+Wenn Sie diese Methode zur Lösung der Aufgabe verwenden möchten sollten Sie wiederum die `MultiFit`-Funktion aus dem Programm-Paket *kafe2* zur **gleichzeitigen** Bestimmung von $f$, $f_{1}$ und $f_{2}$ verwenden, um den Vorteil nutzen zu können, dass $f$ als gemeinsamer Parameter aus den Datenpunkten beider Messreihen bestimmt werden kann. Zur Implementierung eines geeigneten Objekts der `MultiFit`-Klasse sollten Sie zwei `XYFit`-Objekte zu den Modellen $x(f, \beta, h_{x})$ und $x'(f, \beta, h'_{x})$ aus Gleichung **(2)** definieren. Gehen Sie ansonsten wie [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-b.md) beschrieben vor.
 
 # Navigation
 
- [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik) | [Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-b.md) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-d.md)
+ [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik) | [Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-b.md) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-d.md)

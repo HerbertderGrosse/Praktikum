@@ -6,7 +6,7 @@
 
 Wir beschreiben zunächst die Bestimmung von $f$, sowie der Lagen von $H_{1}$ ($h_{x}$) und $H_{2}$ ($h_{x}'$). 
 
-Da die Lage von $H_{1}$ nicht als bekannt vorausgesetzt werden kann bestimmen wir den Abstand von $G$ relativ zu einem **frei gewählten Bezugspunkt** $X$ (Marker $X$ in [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische_Optik/figures/AbbeVerfahren.png)), dessen Position auf der optischen Achse wir gleichzeitig als Nullpunkt festlegen. In [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische_Optik/figures/AbbeVerfahren.png) haben wir $X$ beliebig zwischen $L_{1}$ und $L_{2}$ gewählt. Für den Versuch sollten Sie $X$ vielleicht am besten exakt zwischen $L_{1}$ und $L_{2}$, in der Mitte des Messingzylinders wählen. Die Abstände von $G$ und $B$ zu $X$ bezeichnen wir als
+Da die Lage von $H_{1}$ nicht als bekannt vorausgesetzt werden kann bestimmen wir den Abstand von $G$ relativ zu einem **frei gewählten Bezugspunkt** $X$ (Marker $X$ in [Skizze 3](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/figures/AbbeVerfahren.png)), dessen Position auf der optischen Achse wir gleichzeitig als Nullpunkt festlegen. In [Skizze 3](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/figures/AbbeVerfahren.png) haben wir $X$ beliebig zwischen $L_{1}$ und $L_{2}$ gewählt. Für den Versuch sollten Sie $X$ vielleicht am besten exakt zwischen $L_{1}$ und $L_{2}$, in der Mitte des Messingzylinders wählen. Die Abstände von $G$ und $B$ zu $X$ bezeichnen wir als
 
 $$
 \begin{equation}
@@ -16,14 +16,14 @@ $$
 \end{split}
 \end{equation}
 $$
-wobei $h_{x}$ und $h'_{x}$ die unbekannten Abstände von $X$ zu $H_{1}$ und $H_{2}$ bezeichnen (siehe [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische_Optik/figures/AbbeVerfahren.png)). Nach der Linsengleichung besteht zwischen $g$, $b$, $f$ die Beziehung: 
+wobei $h_{x}$ und $h'_{x}$ die unbekannten Abstände von $X$ zu $H_{1}$ und $H_{2}$ bezeichnen (siehe [Skizze 3](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/figures/AbbeVerfahren.png)). Nach der Linsengleichung besteht zwischen $g$, $b$, $f$ die Beziehung: 
 
 $$
 \begin{equation}
 \frac{1}{f} = \frac{1}{g} + \frac{1}{b}.
 \end{equation}
 $$
-Mit dem Abbildungsmaßstab $\beta$ (Gleichung **(2)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)) lässt sich Gleichung **(2)** wie folgt umformen: 
+Mit dem Abbildungsmaßstab $\beta$ (Gleichung **(2)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)) lässt sich Gleichung **(2)** wie folgt umformen: 
 
 $$
 \begin{equation}
@@ -47,4 +47,4 @@ $$
 
 # Navigation
 
- [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik) | [Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-b.md)
+ [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik) | [Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-b.md)

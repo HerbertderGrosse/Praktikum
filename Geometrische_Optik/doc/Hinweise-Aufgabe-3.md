@@ -55,7 +55,7 @@ V = \frac{\beta}{\alpha} = \frac{f_{1}}{f_{2}}
 $$
 ableiten. Das Bild erscheint auf dem Kopf stehend. (Beachten Sie, dass sich die Strahlen in $B$ gekreuzt haben.) 
 
-Eine Variation des Kepler-Fernrohrs ist das [Gallilei-Fernrohr](https://de.wikipedia.org/wiki/Fernrohr#Galilei-Fernrohr), für das die rechte Sammellinse durch eine Streulinse, für **Skizze 4** —bis auf das Vorzeichen— der gleichen Brennweite $f_{2}$, ersetzt. Ein entsprechender Strahlengang in in **Skizze 4** (unten) gezeigt. In diesem Fall fällt der rechtsseitige Brennpunkt der linken Linse mit dem *rechtsseitigen* Brennpunkt der rechten Linse zusammen. Die Vergrößerung $V$ der Fernrohrs ergibt sich aus der gleichen Abschätzung, wie für Gleichung (1) mit zwei Besonderheiten: 
+Eine Variation des Kepler-Fernrohrs ist das [Gallilei-Fernrohr](https://de.wikipedia.org/wiki/Fernrohr#Galilei-Fernrohr), für das die rechte Sammellinse durch eine Streulinse, für **Skizze 4** —bis auf das Vorzeichen— der gleichen Brennweite $f_{2}$, ersetzt. Ein entsprechender Strahlengang ist in **Skizze 4** (unten) gezeigt. In diesem Fall fällt der rechtsseitige Brennpunkt der linken Linse mit dem *rechtsseitigen* Brennpunkt der rechten Linse zusammen. Die Vergrößerung $V$ der Fernrohrs ergibt sich aus der gleichen Abschätzung, wie für Gleichung **(1)** mit zwei Besonderheiten: 
 
 Der Abstand der Linsen beträgt 
 
@@ -64,9 +64,9 @@ $$
 d = f_{1} - f_{2},
 \end{equation*}
 $$
-das Gallilei-Fernrohr ist also etwas kompakter in der Bauweise und das Bild im Auge erscheint nicht auf dem Kopf stehend. 
+das Gallilei-Fernrohr ist also etwas kompakter in der Bauweise und das Bild im Auge **erscheint nicht auf dem Kopf stehend**. 
 
 # Navigation
 
- [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-3-a.md)
+ [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-3-a.md)
 

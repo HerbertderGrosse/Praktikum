@@ -8,7 +8,7 @@ Die [paraxiale Optik](https://de.wikipedia.org/wiki/Paraxiale_Optik) beschäftig
 
 Eines der wichtigsten optischen Systeme ist die **dünne [Sammellinse](https://de.wikipedia.org/wiki/Sammellinse)**. Zu ihrer Beschreibung dient die [Hauptebene](https://de.wikipedia.org/wiki/Hauptebene_(Optik)) $H$. Den Schnittpunkt der Hauptebene mit der optischen Achse bezeichnet man als Hauptpunkt. Wir verwenden im Folgenden $H$ sowohl für die Hauptebene als auch für den Hauptpunkt. 
 
-Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich im Brennpunkt der Linse (auch [Fokus](https://de.wikipedia.org/wiki/Fokus) genannt). Die Ebene senkrecht zur optischen Achse im Brennpunkt heißt Bennebene. Als [Brennweite](https://de.wikipedia.org/wiki/Brennweite) $f$ bezeichnet man den Abstand zwischen Brennpunkt und $H$. Eine Linse bildet einen Gegenstand $G$ (in der Gegenstandsebene) in ein Bild $B$ (in der Bildebene) ab, wie in **Skizze 1** dargestellt: 
+Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich im Brennpunkt der Linse (auch [Fokus](https://de.wikipedia.org/wiki/Fokus) genannt). Die Ebene senkrecht zur optischen Achse im Brennpunkt heißt Brennebene. Als [Brennweite](https://de.wikipedia.org/wiki/Brennweite) $f$ bezeichnet man den Abstand zwischen Brennpunkt und $H$. Eine Linse bildet einen Gegenstand $G$ (in der Gegenstandsebene) in ein Bild $B$ (in der Bildebene) ab, wie in **Skizze 1** dargestellt: 
 
 <img src="../figures/Linsengleichung.png" width="900" style="zoom:100%;" />
 
@@ -30,8 +30,8 @@ $$
 \frac{1}{f} = \frac{1}{g} + \frac{1}{b}
 \end{equation}
 $$
-gegeben.  In der **Skizze 1** wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$, durch Reflexion, als reelles Bild auch in $G$ zurück abgebildet.
+gegeben.  In **Skizze 1** wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$, durch Reflexion, als reelles Bild auch in $G$ zurück abgebildet.
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-1-a.md)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik/doc/Hinweise-Aufgabe-1-a.md)
